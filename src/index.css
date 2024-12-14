@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IS';
+  src: url('./IRANSansWeb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  direction: rtl;
+  font-family: 'IS', sans-serif;
+}
