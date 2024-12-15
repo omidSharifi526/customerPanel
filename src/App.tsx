@@ -1,22 +1,19 @@
-// import { useState } from 'react'
+
+import { RouterProvider } from "react-router-dom";
+import Mrouter from "./Routes/Routes";
 
 import './App.css';
-import Login from './pages/Login/login';
+// import Login from './pages/Login/login';
 
 
 function App() {
-
-
   return (
     <>
-      <div>
-  {/* <MainNavbar/> */}
-  
-<Login/>
-      </div>
-     
-    </>
-  )
+    <RouterProvider router={Mrouter} />
+   </>
+  );
 }
 
-export default App
+
+
+export default App;

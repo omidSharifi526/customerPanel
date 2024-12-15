@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'IS';
-  src: url('./IRANSansWeb.ttf') format('truetype');
+  src: url('./YekanBakhFaNum-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   direction: rtl;
-  font-family: 'IS', sans-serif;
+  
 }
